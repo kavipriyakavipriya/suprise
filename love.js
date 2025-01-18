@@ -7,7 +7,7 @@ const gif = document.querySelector(".gif");
 // using event handler and arrow function
 // yesBtn.addEventListener("click", () => {
 //   question.innerHTML = "I love you too...ummmmaaaaaahhhhhhhhhh";
-//   gif.src = "gifs/happy.gif";
+//   gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/happy.gif";
 // });
 
 function yes(){
@@ -18,7 +18,7 @@ function yes(){
 function no(){
   
   document.querySelector('.question').innerHTML="unkuda Duuuuuuuuuuuu,na sogama irruka :(";
-  gif.src = "gifs/sad.gif";
+  gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/sad.gif";
 
   const screen = document.querySelector(".screen");
   const screenSize = screen.getBoundingClientRect();
