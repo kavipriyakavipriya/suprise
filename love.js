@@ -6,18 +6,18 @@ const gif = document.querySelector(".gif");
 
 // using event handler and arrow function
 // yesBtn.addEventListener("click", () => {
-//   question.innerHTML = "I love you too...ummmmaaaaaahhhhhhhhhh";
+//   question.innerHTML = "Enaku ungala pudikum...ummmmaaaaaahhhhhhhhhh";
 //   gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/happy.gif";
 // });
 
 function yes(){
-  document.querySelector('.question').innerHTML="I love you too...ummmmaaaaaahhhhhhhhhh";
+  document.querySelector('.question').innerHTML="Enaku ungala pudikum...ummmmaaaaaahhhhhhhhhh";
   gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/happy.gif";
 };
 
 function no(){
   
-  document.querySelector('.question').innerHTML="unkuda Duuuuuuuuuuuu,na sogama irruka :(";
+  document.querySelector('.question').innerHTML="unkuda Duuuuuuuuuuuu,na sogama irruka pesa mata :(";
   gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/sad.gif";
 
   const screen = document.querySelector(".screen");
