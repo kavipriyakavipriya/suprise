@@ -12,7 +12,7 @@ const gif = document.querySelector(".gif");
 
 function yes(){
   document.querySelector('.question').innerHTML="I love you too...ummmmaaaaaahhhhhhhhhh";
-  gif.src = "gifs/happy.gif";
+  gif.src = "https://github.com/kavipriyakavipriya/suprise/blob/main/gifs/happy.gif";
 };
 
 function no(){
